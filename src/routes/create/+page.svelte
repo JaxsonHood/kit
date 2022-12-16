@@ -1,0 +1,11 @@
+<svelte:head>
+    <title>Create New</title>
+</svelte:head>
+
+<div class="flex w-full h-full flex-col justify-center items-center">
+    <div class="flex flex-row space-x-6 items-center">
+        <h1 class="text-4xl font-semibold font-mono text-slate-400 p-2 outline-double">
+            CREATE
+        </h1>
+    </div>
+</div>
