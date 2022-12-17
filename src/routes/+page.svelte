@@ -4,6 +4,7 @@
 </script>
 <svelte:head>
     <title>KIT Coming Soon</title>
+    <meta name="description" content="KIT a interactive way of managing flows.">
 </svelte:head>
 
 <div class="flex flex-col justify-center items-center text-slate-400 mt-36">

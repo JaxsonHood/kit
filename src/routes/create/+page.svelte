@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Create New</title>
+    <meta name="description" content="Create a new KIT Scheme.">
 </svelte:head>
 
 <div class="flex flex-col justify-center items-center">
