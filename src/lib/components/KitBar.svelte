@@ -14,9 +14,9 @@
     }
 </script>
 
-<div class="h-24">
+<div class="h-20">
     {#if open}
-    <div class="border-2 rounded-xl border-sky-400 mb-10 items-center transition-all w-full h-24 shadow-md shadow-sky-300/20" in:slide={customTransition}>
+    <div class="border-2 rounded-xl border-sky-400 mb-10 items-center transition-all w-full h-20 shadow-md shadow-sky-300/20" in:slide={customTransition}>
         <div class="flex flex-row m-1 space-x-2">
             <div class="px-1.5 py-0.5 rounded-md rounded-bl rounded-tr bg-sky-400 text-slate-900 cursor-pointer w-min">
                 <h1 class="text-3xl font-mono font-semibold whitespace-nowrap"><span class="font-extrabold">KIT</span>-Bar</h1>
