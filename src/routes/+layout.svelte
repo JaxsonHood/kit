@@ -3,7 +3,7 @@
     import "../app.css";
 </script>
   
-<div class="w-screen h-screen bg-slate-900 p-2">
+<div class="w-screen h-screen bg-slate-900 p-3">
     <KitBar />
     <slot />
 </div>

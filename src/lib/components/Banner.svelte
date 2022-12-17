@@ -1,5 +1,5 @@
 <div
-	class="m-5 border border-lime-500/10 max-w-3xl rounded-xl bg-gradient-to-br from-lime-500 to-blue-500 text-slate-100"
+	class="m-5 border border-lime-500/30 max-w-3xl rounded-xl bg-gradient-to-br from-lime-500 to-blue-500 text-slate-100"
 >
 	<div class="relative m-px overflow-hidden rounded-xl bg-slate-900 px-3 py-3 text-lg">
 		<div
