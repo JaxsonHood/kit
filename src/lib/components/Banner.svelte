@@ -9,7 +9,7 @@
 			<p class="text-sm text-gray-300">
 				<strong class="text-white">Coming Soon:</strong> Manage your KIT with
 				<a href="/pricing" class="text-white underline">New Possibilities</a>. Endless ways to customize.
-				<code class="rounded-md border border-gray-600 bg-slate-800 p-1 text-sm text-gray-200"
+				<code class="rounded-md border border-gray-600 bg-slate-800 p-1 text-sm text-gray-200 whitespace-nowrap"
 					>Get Ready</code
 				>
 			</p>

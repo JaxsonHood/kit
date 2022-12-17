@@ -22,7 +22,7 @@
                 <h1 class="text-3xl font-mono font-semibold whitespace-nowrap"><span class="font-extrabold">KIT</span>-Bar</h1>
             </div>
 
-            <button class="px-1 py-0.5 text-sky-300 text-3xl cursor-pointer w-min flex flex-row justify-center items-center border-2 border-sky-400 p-1 rounded-lg hover:shadow-lg hover:shadow-sky-300/20 hover:border-sky-400" on:click={toggleOpen} in:scale={customTransition}>
+            <button aria-label="close-button" class="px-1 py-0.5 text-sky-300 text-3xl cursor-pointer w-min flex flex-row justify-center items-center border-2 border-sky-400 p-1 rounded-lg hover:shadow-lg hover:shadow-sky-300/20 hover:border-sky-400" on:click={toggleOpen} in:scale={customTransition}>
                 <Fa class="hover:scale-95 transition-all" icon={faChevronCircleLeft} />
             </button>
         </div>
@@ -34,7 +34,7 @@
                 <h1 class="text-3xl font-mono font-semibold whitespace-nowrap">KIT-Bar</h1>
             </div>
             
-            <button class="px-1 py-0.5 text-sky-200 text-3xl cursor-pointer w-min flex flex-row justify-center items-center border-2 border-sky-300 p-1 rounded-lg hover:shadow-lg hover:shadow-sky-300/20 hover:border-sky-400" on:click={toggleOpen} in:scale={customTransition}>
+            <button aria-label="open-button" class="px-1 py-0.5 text-sky-200 text-3xl cursor-pointer w-min flex flex-row justify-center items-center border-2 border-sky-300 p-1 rounded-lg hover:shadow-lg hover:shadow-sky-300/20 hover:border-sky-400" on:click={toggleOpen} in:scale={customTransition}>
                 <Fa class="hover:scale-95 transition-all" icon={faChevronCircleRight} />
             </button>
         </div>
