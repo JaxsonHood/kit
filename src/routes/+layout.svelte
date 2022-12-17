@@ -1,9 +1,9 @@
 <script>
-	import Toolbar from "$lib/components/Toolbar.svelte";
+	import KitBar from "$lib/components/KitBar.svelte";
     import "../app.css";
 </script>
   
 <div class="w-screen h-screen bg-slate-900 p-2">
-    <Toolbar />
+    <KitBar />
     <slot />
 </div>
