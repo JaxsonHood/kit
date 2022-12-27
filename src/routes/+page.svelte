@@ -7,6 +7,7 @@
     import { fly, slide, scale } from "svelte/transition";
     import { quintOut } from "svelte/easing";
 	import DelayAnimation from "$lib/components/DelayAnimation.svelte";
+	import GridExample from "$lib/components/GridExample.svelte";
 
     const customTransition = { delay: 0, duration: 150, easing: quintOut }
 </script>
@@ -35,6 +36,9 @@
         </div>
         <div class="mt-16">
             <Banner />
+        </div>
+        <div class="mt-16">
+            <GridExample />
         </div>
     </div>
 </DelayAnimation>
